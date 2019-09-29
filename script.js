@@ -1,7 +1,3 @@
-(function ($) {
-    'use strict';
-    $(document).ready(function () {
-
     var generarColores = function(){
         var colors = paletteGenerator.generate(
             5, // Colors
@@ -51,6 +47,3 @@
 
 
     generarPaleta();
-
-})
-})(window.jQuery);
